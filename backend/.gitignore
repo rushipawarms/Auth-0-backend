@@ -2,7 +2,6 @@
 node_modules/
 npm-debug.log
 yarn-error.log
-.env
 
 # Logs
 logs/
@@ -46,7 +45,4 @@ coverage/
 .cache/
 
 # Miscellaneous
-*.env.*
-.env.local
 
-.env

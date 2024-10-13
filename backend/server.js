@@ -9,7 +9,7 @@ app.use(cors({ origin: "http://localhost:3000" }));
 
 const jwtCheck = auth({
   audience: process.env.AUTH0_AUDIENCE,
-  issuerBaseURL: process.env.AUTH0_DOMAIN,
+  issuerBaseURL: process.env.AUTH0_BASE_URL,
   tokenSigningAlg: "RS256",
 });
 
